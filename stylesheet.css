@@ -1,0 +1,17 @@
+body {
+    background-color: beige;
+}
+
+/* .carousel-item {
+    height: auto;
+  } */
+  
+  .carousel-item img{
+    height: 500px;
+    width: 300px;
+}
+
+p {
+    color: red;
+    
+}
