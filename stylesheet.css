@@ -3,23 +3,38 @@ body {
 }
 
 p {
-    color: red;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+h1 {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .carousel-item {
-    height: 32rem;
+    height: 24rem;
     position: relative;
-    background: #777;
-    background-position: center;
-    background-size: cover;
+    background: #000;
+   
 }
 .container {
     position:absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 .carousel-item active {
     background-image: url();
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.75;
 }
